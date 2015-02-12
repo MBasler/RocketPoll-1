@@ -1,0 +1,53 @@
+CUSTOM CSS for Rocket Poll website
+
+.navbar-brand {
+	font: 400 130px/1 'Cookie', Helvetica, sans-serif;
+	color: #fff;
+	text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+	font-size:1.9em;
+}
+
+#logoNav {
+	height: 30px;
+	float: left;
+	margin-top: -4px;
+	margin-right: 10px;
+}
+
+#logo {
+	height:250px;
+}
+
+.phone {
+	width:224px;
+	height:430px;
+}
+
+#create-content {
+	margin-top:10%;
+	margin-left:-5%;
+}
+
+#answer-content {
+	margin-top:11%;
+	margin-left:-7%;
+}
+
+#1respond-content {
+	margin-top:11%;
+	margin-left:-7%;
+}
+
+#meet {
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+.navbar.navbar-fixed-top {
+	width: 80%;
+	height:50px;
+	margin: 0 auto;
+	z-index: 1000;
+	border-width: 0 0 1px;
+}
+
