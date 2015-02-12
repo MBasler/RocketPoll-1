@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Rocket Poll</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+   <link href="css/custom.css" rel="stylesheet">
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar-collapse">
+  <!-- NAVBAR
+================================================== -->
+    <div id="home" class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div id="nav" class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+        <img id="logoNav" src="images/logo.jpg">
+        <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+        Rocket Poll</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav" style="background-color: #222222; ">
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#ask">About</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+  <div class="carousel-inner" role="listbox">
+        <div class="item active">
+      <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <img id="logo" src="images/logo.jpg" alt="Rocket Poll">
+            <h1>Rocket Poll</h1>
+            <p>The social feedback app that gives you access to real opinions.</p>
+            <p><a class="btn btn-lg btn-primary" href="#team" role="button">Meet the team</a></p>
+          </div>
+        </div>
+        </div>
+        <div class="item">
+      <img src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="row">
+              <div class="col-md-6">
+                <img class="phone" src="images/ask.jpg">
+              </div>
+              <div id="create-content"class="col-md-6">
+                <div class="slide-content">
+                  <h1>Create a poll</h1>
+                    <p>Need help making a decision, or just want someone else's opinion? Make a short survey, and send it to your friends.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#ask" role="button">Learn more</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="item">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="phone" src="images/answer.jpg">
+            </div>
+            <div id="answer-content"class="col-md-6">
+              <div class="slide-content">
+                <h1>Share you opinion</h1>
+                <p>Respond to your friends poll's to add your point of view.</p>
+                <p><a class="btn btn-lg btn-primary" href="#respond" role="button">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Forth slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="row">
+              <div class="col-md-6">
+                <img class="phone" src="images/results2.png">
+              </div>
+              <div id="respond-content"class="col-md-6">
+                <h1>View the results</h1>
+                <p>Take a look and see how others responded to the question.</p>
+                <p><a class="btn btn-lg btn-primary" href="#results" role="button">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div id="team" class="container marketing">
+    <h1 id="meet">Meet the Rocket Poll team</h1>
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/michael.png" alt="Michael Basler" style="width: 200px; height: 200px;">
+          <h2>Michael Basler</h2>
+      <h4>Operations</h4>
+          <p>Michael Basler holds a B.S. in Political Science from Kansas State University and has a background in sales. 
+         He currently lives in Atlanta, GA, and recently has been learning web development. 
+         In his spare time he enjoys watching movies, listening to music, and exploring the city.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/igor.png" alt="Igor Kantor" style="width: 200px; height: 200px;">
+          <h2>Igor Kantor</h2>
+      <h4>Programmer</h4>
+          <p>Igor Kantor is an experienced software developer with a passion for solving business problems. 
+       Most recently he has been focusing on writing great iOS and Android apps. He lives in 
+       Boulder, CO and on the weekends can be found snowboarding and cycling with his wife Susan.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/scott.png" alt="Scott Simpson" style="width: 200px; height: 200px;">
+          <h2>Scott Simpson</h2>
+      <h4>Business</h4>
+          <p>Scott Simpson earned his B.A. in Communication Studies and MBA from the University of Kansas. 
+       He currently works for a marketing agency in the Kansas City Area.
+       Scott likes to play piano and video games, and can sometimes be found riding his bike through the cornfields of Kansas. </p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+      <hr class="featurette-divider">
+
+      <div id="ask" class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Need some feedback? <span class="text-muted">Ask a question.</span></h2>
+          <p class="lead">Occasionally people have trouble making up their mind, and just need someone to tell them what to do. Sometimes we just want to hear other peoples point of view. We've all been there.
+              Rocket poll allows you to ask any question. Whether you want advice on where to take you your significant other out on a date,
+              or ask your friends who is going to win the game, Rocket Poll is the app to help you. After you ask your question create
+              some options to choose, and send it to your friends. </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/creating.png"data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div id="respond" class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/answers.png" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Respond to your friends. <span class="text-muted">Share your opinion, or give advice.</span></h2>
+          <p class="lead"> We often are asked for our view on various subjects. How do you give your opinion? Do you start by saying, "In my opinion," or "Personally?" With Rocket Poll just tell your friends what you think by answering a choice they have provided you with. </p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+    <div id="results" class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Real answers. <span class="text-muted">View the collective opinion.</span></h2>
+          <p class="lead">Finally, you get to see the outcome of a question you asked or answered. The results are expressed quantitatively. What will the impact be? The data might be influential.<p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/2results.png"data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+   
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+    
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.3.5/jquery.localScroll.min.js" type="text/javascript"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.14/jquery.scrollTo.min.js" type="text/javascript"></script> 
+    <script src="js/bootstrap.min.js"></script>
+   
+   <script type="text/javascript">
+    $(document).ready(function() {
+      $('#navbar').localScroll({duration:800});
+    });
+
+    $(document).ready(function() {
+      $('#myCarousel').localScroll({duration:800});
+    });
+    </script>
+  
+  </body>
+</html>
